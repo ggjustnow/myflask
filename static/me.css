@@ -1,0 +1,148 @@
+body{
+	background-color: white;
+}
+ul.nav-pills{
+	width: 300px;
+	text-align: center;
+	}
+ul.nav-pills.affix{
+        top: 30px; /* Set the top position of pinned element */
+    }
+#lists ul li{
+		padding: 5px;
+	}
+.colo{
+	width: 300px;
+}
+.topview{
+	background-color: black;
+	text-align:center;
+	height: 100%;
+	color: white;
+}
+.topimage{
+	position: absolute;
+	top:10px;
+	left: 40px;
+}
+.main{
+	background-color: #cccccc;
+	width: 300px;
+	height: 500px;
+
+}
+.article{
+	margin-bottom: 30px;
+	font-family : 微软雅黑,宋体;
+	font-size : 25px;
+
+}
+.ar-date{
+	color: black;
+	font-size: 15px;
+
+
+}
+.line{
+	height:2px;
+	border:none;
+	border-top:1px dotted #185598;
+	margin-top: 0px;
+	margin-bottom: 10px;
+
+}
+
+/*
+.right{
+		background-color: red;
+	}
+.rside{
+	background-color:  #C80027;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+
+}
+.rside.affix{
+	top:0px;
+}
+.pos{
+	position: relative;
+	top: 0px;
+	bottom: 0px;
+}
+.side-image{
+	padding-top: 50px;
+
+}
+
+.pic-background {
+	background-color: #ffffff;
+	border-radius: 50%;
+	overflow: hidden;
+
+}
+
+.pic-border {
+	margin:0 auto;
+	background: none repeat scroll 0 0 rgba(87, 120, 137, 0.1);
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+}
+
+.pic-border:hover {
+	box-shadow: 0 0 10px #ffffff;
+}
+
+.user-name:hover {
+	text-shadow: 0 0 10px #ffffff;
+}
+
+.user-name {
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.second-and-third {
+	color: #ffffff;
+	font-weight:bold;
+}
+	
+.second-and-third:hover {
+	color: #ffffff;
+	background-color: #ffffff;
+}
+
+.second-and-third:focus{
+	color: #ffffff;
+	background-color: #ffffff;
+
+}
+
+.hr {
+	padding-top:0px;
+	padding-bottom: 0px;
+}
+
+.main {
+	position: fixed;
+	right: 0px;
+}
+
+.main-top{
+	width:100%;
+	height: 300px;
+	background-color: black;
+}
+
+.main-line{
+	margin-top: 200px;
+	color: #C80027;
+	height:2px;
+	border:none;
+	border-top:2px dotted #185598;
+}
+*/

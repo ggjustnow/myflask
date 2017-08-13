@@ -1,0 +1,65 @@
+{% extends "bootstrap/base.html" %}
+ 
+{% block tittle %}JUST NOW{% endblock %}
+{% block styles %}
+{{super()}}
+<link rel="stylesheet" href="{{url_for('.static', filename='me.css')}}">
+{% endblock %}
+
+{% block content %}
+
+<body data-spy="scroll" data-target="#myScrollspy">
+<div class="container-fluid">
+   <div class="jumbotron 
+   topview">
+
+        <h4>责你我太贪功恋势,怪大地众生太美丽</h4>
+        <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;------《难念的经》</h4>
+        <img class="topimage" src="static/2.png" width="128">
+    </div>
+    <div class="row">
+        <div class="col-xs-3" id="myScrollspy">
+            <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="125">
+                <li class="active"><a href="python">Python</a></li>
+                <li><a href="#php">C </a></li>
+                <li><a href="#dede">Flask</a></li>
+                <li><a href="#wordpress">渗透</a></li>
+                <li><a href="#more">文章</a></li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+        <div>
+            <a href="#01" class="article">python学习笔记01
+            </a>
+            <p class="ar-date">
+            time!
+            </p>
+            <hr class="line" />
+            <a href="#01" class="article">python学习笔记01
+            </a>
+            <p class="ar-date">
+            time!
+            </p>
+            <hr class="line" />
+            <a href="#01" class="article">python学习笔记01
+            </a>
+            <p class="ar-date">
+            time!
+            </p>
+            <hr class="line" />
+            <a href="#01" class="article">python学习笔记01
+            </a>
+            <p class="ar-date">
+            time!
+            </p>
+            <hr class="line" />
+        </div>
+        </div>
+        <div class="col-md-3 main">
+
+        </div>
+    </div>
+</body>
+{% endblock %}
+
+
